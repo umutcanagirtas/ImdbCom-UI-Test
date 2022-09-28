@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test-Suite-ImdbComTestCases">
+
+    <test name="ImdbComTestCases">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="testCases.imdbComTestCases.imdbComUITestCases.ImdbComUITestCases">
+            </class>
+        </classes>
+    </test>
+
+</suite>
